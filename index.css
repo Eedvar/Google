@@ -1,0 +1,183 @@
+body
+{
+    background-color: #202124;
+    min-height:100vh;
+	display:flex; 
+	flex-direction:column;
+}
+
+#topbar
+{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ .gmail
+{
+    width: 50px;
+    height: 50px;
+}
+
+.images
+{
+    width: 50px;
+    height: 50px;
+}
+
+.menu
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.menu img 
+{
+    width: 50%;
+    height: 50%;
+}
+
+.avatar
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img 
+{
+    width: 50%;
+    height: 50%;
+}
+
+#google
+{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+#google img 
+{
+    max-width:20%;
+    height:auto;
+}
+
+#research
+{
+    display: flex;
+    justify-content: center;
+}
+
+#barre
+{
+    display: flex;
+    justify-content: center;
+    outline: 2px ridge #bdc1c6;
+    border-radius: 2rem;
+    background-color: #202124;
+    width: 500px;
+}
+
+.chercher
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chercher img 
+{
+    width: 50%;
+    height: 50%;
+}
+
+.form:nth-child(2)
+{
+    flex: 1;
+}
+    
+.barrerecherche
+{
+    width: 100%;
+    height: 90%;
+}
+
+input, textarea 
+{
+    background-color: #202124;
+    color: white;
+}
+    
+.vocale
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vocale img 
+{
+    width: 50%;
+    height: 50%;
+}
+
+#boutons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.bouton2
+{
+    margin-left: 10px;
+}
+
+.bouton1
+{
+    margin-right: 10px;
+}
+
+.recherchegoogle
+{
+    background-color:rgb(80, 80, 80)
+}
+
+.jaidelachance
+{
+    background-color:rgb(80, 80, 80)
+}
+
+#bottombar
+{
+    color:white;
+    display: flex;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+#bottombarleft
+{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+
+}
+
+#bottombarright
+{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
